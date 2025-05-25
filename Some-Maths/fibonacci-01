@@ -1,0 +1,10 @@
+let getFibonacci = function(n) {
+    if(n== 0){
+        return 0
+    } else if(n == 1){
+        return 1
+    }else if(n < 0){
+        return `Number not valid`
+    }
+        return getFibonacci(n-1) + getFibonacci(n-2)
+} 
